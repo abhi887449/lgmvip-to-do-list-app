@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lgmvip-to-do-list-app/static/css/main.d86ca421.css",
+    "main.js": "/lgmvip-to-do-list-app/static/js/main.fa8a9f04.js",
+    "static/js/787.0c16c413.chunk.js": "/lgmvip-to-do-list-app/static/js/787.0c16c413.chunk.js",
+    "index.html": "/lgmvip-to-do-list-app/index.html",
+    "main.d86ca421.css.map": "/lgmvip-to-do-list-app/static/css/main.d86ca421.css.map",
+    "main.fa8a9f04.js.map": "/lgmvip-to-do-list-app/static/js/main.fa8a9f04.js.map",
+    "787.0c16c413.chunk.js.map": "/lgmvip-to-do-list-app/static/js/787.0c16c413.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86ca421.css",
+    "static/js/main.fa8a9f04.js"
+  ]
+}
