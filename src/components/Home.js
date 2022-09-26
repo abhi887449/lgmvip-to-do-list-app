@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="flex flex-col">
                     <h1 className="m-auto text-3xl mt-3 font-extrabold">To Do Lists</h1>
                     <input className='mt-4 p-3 h-11 w-300 m-auto block rounded-lg bg-gray-800' type="text" id="currnotevalue" name="currnotevalue" value={currnote.currnotevalue} onChange={onChange} placeholder='Type your here' />
-                    <Link className='m-auto' to="/">
+                    <Link className='m-auto' to="/lgmvip-to-do-list-app">
                     <button className="m-auto w-16 h-9 bg-yellow-800 text-white mt-2 mb-4 rounded text-md font-bold" onClick={handleadd}>Add</button>
                     </Link>
                 </div>

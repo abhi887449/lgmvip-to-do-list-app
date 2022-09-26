@@ -34,7 +34,7 @@ const Todos = (props) => {
     }
     return (
         <div className={`flex flex-row mt-1 mb-1 ${(notest === "" ? "hidden" : "")}`}>
-            <Link to="/" onClick={handlecheckbox}>
+            <Link to="/lgmvip-to-do-list-app" onClick={handlecheckbox}>
                 <span className={`material-symbols-outlined hover\:green-700 ml-3 ${(notest.ischecked === "false" ? "hidden" : "")} ${(notest === "" ? "hidden" : "")}`}>
                     done
                 </span>
@@ -43,7 +43,7 @@ const Todos = (props) => {
                 </span>
             </Link>
             <p className={`ml-3 hover\:text-green-700 break-words ${(notest.ischecked === "true" ? "line-through" : "")} ${(notest === "" ? "hidden" : "")}`} >{notest.currnotevalue}</p>
-            <Link to="/" className={`material-symbols-outlined mr-1 hover\:text-red-700 ml-auto ${(notest === "" ? "hidden" : "")}`} onClick={handledelete}>
+            <Link to="/lgmvip-to-do-list-app" className={`material-symbols-outlined mr-1 hover\:text-red-700 ml-auto ${(notest === "" ? "hidden" : "")}`} onClick={handledelete}>
                 delete
             </Link>
         </div>
