@@ -7,7 +7,7 @@ function App() {
     <>
     <Router>
         <Routes>
-              <Route exact path="/" element={<Home />}></Route>
+              <Route exact path="/lgmvip-to-do-list-app" element={<Home />}></Route>
             </Routes>
         </Router>
     </>
